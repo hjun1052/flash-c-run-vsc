@@ -1,0 +1,9 @@
+{
+  "description": "一键即时构建并运行你的 C 文件。",
+  "compilertype": "要使用的C编译器（如：gcc、clang、tcc）",
+  "compilerflags": "额外的 GCC 编译参数",
+  "outputname": "指定输出文件名（留空使用源文件名）",
+  "adexec": "运行后自动删除生成的可执行文件",
+  "buildfolder": "将构建结果保存在 .build 文件夹中",
+  "buildfoldername": "保存构建输出的文件夹"
+}

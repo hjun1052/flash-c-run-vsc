@@ -1,0 +1,9 @@
+{
+  "description": "Compile y ejecute sus archivos C instantáneamente con un solo clic.",
+  "compilertype": "El compilador C a usar (p. ej.: gcc, clang, tcc)",
+  "compilerflags": "Banderas adicionales para el compilador GCC",
+  "outputname": "Nombre del ejecutable (vacío para usar el del archivo fuente)",
+  "adexec": "Borrar el ejecutable automáticamente después de ejecutarlo",
+  "buildfolder": "Guardar archivos compilados en la carpeta .build",
+  "buildfoldername": "Carpeta para guardar los resultados de la compilación"
+}

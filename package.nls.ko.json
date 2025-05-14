@@ -1,0 +1,9 @@
+{
+  "description": "한 번의 클릭으로 C 파일을 컴파일하고 실행하세요.",
+  "compilertype": "컴파일에 사용할 C 컴파일러 (예: gcc, clang, tcc)",
+  "compilerflags": "추가 GCC 컴파일 플래그",
+  "outputname": "실행파일 이름 지정 (비워두면 원본 파일명 사용)",
+  "adexec": "실행 후 생성된 실행 파일 자동 삭제",
+  "buildfolder": "빌드 결과물을 .build 폴더에 저장",
+  "buildfoldername": "빌드 결과물을 저장할 폴더"
+}

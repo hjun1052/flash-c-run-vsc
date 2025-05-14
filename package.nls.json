@@ -1,0 +1,9 @@
+{
+  "description": "Compile and run your C files instantly with one click.",
+  "compilertype": "The C compiler to use (e.g., gcc, clang, tcc)",
+  "compilerflags": "Additional GCC compiler flags",
+  "outputname": "Specify output filename (leave empty to use source name)",
+  "adexec": "Automatically delete the executable after running",
+  "buildfolder": "Save build output to .build folder",
+  "buildfoldername": "Folder to save build output"
+}

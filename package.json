@@ -1,0 +1,77 @@
+{
+  "name": "flash-run-c",
+  "displayName": "Flash Run C",
+  "description": "%description%",
+  "icon": "icon.png",
+  "version": "1.5.6",
+  "publisher": "hjun1052",
+  "engines": { "vscode": "^1.60.0" },
+  "categories": ["Other"],
+  "activationEvents": ["onLanguage:c"],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "flashRunC.runCFile",
+        "title": "▶️ Flash Run C⚡️"
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "flashRunC.runCFile",
+          "when": "editorLangId == c",
+          "group": "navigation"
+        }
+      ]
+    },
+    "configuration": {
+      "type": "object",
+      "title": "Flash Run C",
+      "properties": {
+        "flashRunC.compiler": {
+          "type": "string",
+          "default": "gcc",
+          "enum": ["gcc", "clang", "tcc"],
+          "description": "%compilertype%"
+        },
+        "flashRunC.compilerFlags": {
+          "type": "string",
+          "default": "-Wall -Wextra -std=c11",
+          "description": "%compilerflags%"
+        },
+        "flashRunC.outputName": {
+          "type": "string",
+          "default": "",
+          "description": "%outputname%"
+        },
+        "flashRunC.autoDeleteExecutable": {
+          "type": "boolean",
+          "default": false,
+          "description": "%adexec%"
+        },
+        "flashRunC.enableBuildFolder": {
+          "type": "boolean",
+          "default": false,
+          "description": "%buildfolder%"
+        },
+        "flashRunC.buildFolder": {
+          "type": "string",
+          "default": ".build",
+          "description": "%buildfoldername%"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.60.0",
+    "typescript": "^4.4.3",
+    "vsce": "^2.5.0"
+  }
+}

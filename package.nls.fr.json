@@ -1,0 +1,9 @@
+{
+  "description": "Construisez et exécutez vos fichiers C instantanément d'un clic.",
+  "compilertype": "Le compilateur C à utiliser (ex : gcc, clang, tcc)",
+  "compilerflags": "Options de compilation GCC supplémentaires",
+  "outputname": "Nom du fichier de sortie (laisser vide pour utiliser le nom source)",
+  "adexec": "Supprimer automatiquement l'exécutable après exécution",
+  "buildfolder": "Enregistrer les résultats de build dans le dossier .build",
+  "buildfoldername": "Dossier pour enregistrer les résultats de compilation"
+}

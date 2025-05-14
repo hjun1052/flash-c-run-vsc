@@ -1,0 +1,9 @@
+{
+  "description": "1クリックでCファイルをビルドして実行します。",
+  "compilertype": "使用するCコンパイラ（例: gcc、clang、tcc）",
+  "compilerflags": "追加のGCCコンパイルフラグ",
+  "outputname": "出力ファイル名を指定（空白でソース名を使用）",
+  "adexec": "実行後に生成された実行ファイルを自動削除",
+  "buildfolder": "ビルド成果物を.buildフォルダに保存",
+  "buildfoldername": "ビルド成果物を保存するフォルダ"
+}
