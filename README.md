@@ -14,3 +14,5 @@ Open any C file, and press "▶️ Flash Run C⚡️" button located at the tab 
 
 ## How to change settings
 Open VSCode Settings, and search "flash run c" at the search bar. You can find various settings you can change.
+
+### See more information at [MarketPlace](https://marketplace.visualstudio.com/items?itemName=hjun1052.flash-run-c).
